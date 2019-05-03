@@ -1,0 +1,13 @@
+/*
+Always active
+a:link {color: #00ffff}
+a:visited {color: #FF8C00}
+a:hover {color: #FFA500}
+a:active {color: #FF4500}
+*/
+
+/* with botton - visitados: queimando*/
+a.Burning:link {color: #00ffff}
+a.Burning:visited {color: #FF8C00}
+a.Burning:hover {color: #FFA500}
+a.Burning:active {color: #FF4500}

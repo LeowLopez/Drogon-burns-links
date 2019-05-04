@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
 function DracarysOrNot(){
 
 	if(dracarys == false){
-		links = document.queryselectorAll("a");
+		links = document.querySelectorAll("a");
 		linkNumbers = links.length;
 		Oldlinks = new Array(linkNumbers);//to save the old class
 		

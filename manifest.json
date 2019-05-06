@@ -1,4 +1,4 @@
-{
+﻿{
 	"name": "Drogon burns links",
 	"version": "1.0",
 	"description": "Adiciona cor diferente aos links já visitados",
@@ -10,8 +10,12 @@
     	{
         	"matches": ["http://*/*", "https://*/*"],
         	"css": ["style.css"],
-        	"js": ["script.js"]
+        	"js": ["content.js"]
     	}
+	],
+	
+	"permissions": [
+		"tabs"
 	],
 
 

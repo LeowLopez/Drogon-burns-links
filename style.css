@@ -6,7 +6,10 @@ a:hover {color: #FFA500}
 a:active {color: #FF4500}
 */
 
-/* with botton - visitados: queimando*/
+/* with Dracarys button
+   Burning: visited
+   ice: non visited
+*/
 a.Burning:link {color: #00ffff}
 a.Burning:visited {color: #FF8C00}
 a.Burning:hover {color: #FFA500}

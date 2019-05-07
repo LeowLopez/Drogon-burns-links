@@ -3,8 +3,13 @@
 	"version": "1.0",
 	"description": "Adiciona cor diferente aos links já visitados",
 	"browser_action":{
-		"default_popup": "index.html"
+		"default_popup": "index.html",
+		"default_icon": "icon.png"
 	},
+
+	"icons": { "16": "icone.png",
+           "48": "icone.png",
+          "128": "icone.png" },
 	
 	"content_scripts": [
     	{

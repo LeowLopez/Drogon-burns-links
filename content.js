@@ -1,12 +1,10 @@
 dracarys = false;
 
-chrome.runtime.onMessage.addListener(
-      function(request, sender, sendResponse) {
-        if( request.message === "dracarys" ) {
-         DracarysOrNot();
-        }
-      }
-);
+chrome.runtime.onMessage.addListener(function(request, sender, sendResponse){
+	if(request.message === "dracarys"){
+		DracarysOrNot();
+	}
+});
 
 
 function DracarysOrNot(){
@@ -19,7 +17,6 @@ function DracarysOrNot(){
 		for(i = 0; i < linkNumbers; i++){
 			Oldlinks[i] = links[i].className;//saving
 			links[i].className = "Burning";//renaming class
-			console.log(i);
 		}
 		dracarys = true;
 
@@ -29,7 +26,6 @@ function DracarysOrNot(){
 
 		for(i = 0; i < linkNumbers; i++){
 			links[i].className = Oldlinks[i];//renaming class
-			console.log(i);
 		}
 		dracarys = false;
 	}

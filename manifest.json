@@ -7,9 +7,9 @@
 		"default_icon": "icon.png"
 	},
 
-	"icons": { "16": "icone.png",
-           "48": "icone.png",
-          "128": "icone.png" },
+	"icons": { "16": "icon.png",
+           "48": "icon.png",
+          "128": "icon.png" },
 	
 	"content_scripts": [
     	{
@@ -19,10 +19,7 @@
     	}
 	],
 	
-	"permissions": [
-		"tabs"
-	],
-
+	"permissions": ["tabs", "storage"],
 
 	"manifest_version": 2
 }

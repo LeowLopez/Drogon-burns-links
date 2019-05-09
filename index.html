@@ -7,6 +7,11 @@
 		body{
 			background-color: #D3D3D3;
 		}
+		a{
+			text-decoration: none;
+			color: white;
+			text-shadow: 0 0 2px black;
+		}
 		#Drogon {
 			font-family: Arial, Helvetica, sans-serif;
 			font-size: 14px;
@@ -21,7 +26,8 @@
 			
 			-webkit-border-radius: 6px;
 			border-radius: 6px;
-			border: 1px solid #0a0000;
+			border: 1px solid white;
+			outline: none;
 			-webkit-box-shadow:
 				0px 1px 3px rgba(000,000,000,0.5),
 				inset 0px 0px 1px rgba(255,255,255,1);
@@ -30,13 +36,15 @@
 				0px 1px 0px rgba(140,140,140,0.3);
 		}
 		#Popup {
-			height: 100px;
+			height: 120px;
 		    width: 200px;
 		    background: #D3D3D3;
-		}
-		p {
-			font-family: Arial, Helvetica, sans-serif;
+		    font-family: Arial, Helvetica, sans-serif;
 			font-size: 14px;
+			color: gray;
+		}
+		em{
+			font-size: 10px
 		}
 		span.nonvisited {color: #00ffff; text-shadow: 0px 0px 4px gray}
 		span.visited {color: #FF8C00; text-shadow: 0px 0px 2px red}
@@ -45,9 +53,11 @@
 </head>
 <body>
 	<div id="Popup" align="center">
-	<p>Links em <span class="nonvisited">gelo</span>: não visitados</p>
-	<p>Links em <span class="visited">fogo</span>: visitados</p>
+	<p>Ice links <span class="nonvisited">non-visited</span></p>
+	<p>Fire links <span class="visited">visited</span></p>
 	<button id="Drogon"></button>
+	</br></br>
+	<em>Developed by <a href="https://twitter.com/LeowLopez/" target="_blank">@LeowLopez</a></em>
 	</div>
 </body>
 </html>

@@ -1,7 +1,7 @@
 ﻿{
-	"name": "Drogon burns links",
+	"name": "Drogon burns link:visited",
 	"version": "1.0",
-	"description": "Adiciona cor diferente aos links já visitados",
+	"description": "Colorize link:visited with different color of link:non-visited",
 	"browser_action":{
 		"default_popup": "index.html",
 		"default_icon": "icon.png"
@@ -19,7 +19,7 @@
     	}
 	],
 	
-	"permissions": ["tabs", "storage"],
+	"permissions": ["tabs"],
 
 	"manifest_version": 2
 }
